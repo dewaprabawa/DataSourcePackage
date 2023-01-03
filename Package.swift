@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(name: "Alamofire", url: "https://github.com/Alamofire/Alamofire.git", branch: "main"),
+        .package(name: "Alamofire", url: "https://github.com/Alamofire/Alamofire.git", branch: "master"),
         .package(name: "Realm", url: "https://github.com/realm/realm-swift", branch: "master"),
         .package(name: "RxSwift", url: "https://github.com/ReactiveX/RxSwift.git", branch: "main")
     ],
